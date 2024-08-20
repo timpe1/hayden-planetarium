@@ -1,0 +1,259 @@
+/******w***********
+    
+    Project 1 Stylesheet
+    Name: Eric Timperman
+    Date: June 29th 2024
+    Description: CSS for Project 1 (validated)
+
+******************/
+
+body {
+    background: #e7e7e7;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 1%;
+    font-family: Verdana;
+    box-shadow: 1px 1px 5px black;
+    background: linear-gradient(to bottom, #fff 90%, #e8e8e8 100%);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+  outline: 1px solid dimgray;
+  text-decoration: underline;
+  background-color: mediumaquamarine;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+        header nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            
+        }
+            header nav ul li {
+                
+                padding: 0px 12px;
+                border-right: 1px solid #000;
+                text-decoration: none;
+
+            }
+
+            header nav ul li:last-of-type {
+                border-right: none;
+
+            }
+
+    header form {
+        margin: auto 0;
+    }
+
+
+
+#banner {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 250px;
+    width: 100%;
+}
+
+    #banner > img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .title {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        font-weight: 100;
+        letter-spacing: .2rem;;
+        font-size: 3em;
+        color: white;
+
+    }
+
+    .subtitle {
+        position: absolute;
+        right: 5%;
+        bottom: 10%;
+        font-style: italic;
+        font-weight: normal;
+        letter-spacing: .2rem;
+        font-size: 1.1em;
+        color: white;
+    }
+
+
+#main {
+    background: #05A0CF;
+    background: linear-gradient(to bottom, #96c9fc 0%, #1976a9 100%);
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+    #main ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+            #main ul li {
+            
+                padding: 0 2.5% 0 2.5%;
+                border-right: 2px inset #000;
+                margin: auto;
+                white-space: nowrap;
+
+        }
+
+            #main ul li:last-of-type {
+                border-right: none;
+
+            }
+
+            #main ul li a {
+                color: #FFF;
+                font-weight: 600;
+            }
+
+#page_middle {
+    display: flex;
+    align-items: start;
+    padding: 0;
+    margin: 0;
+}
+    #page_middle h1 {
+        margin-top: 5%;
+        padding-bottom: 2%;
+        border-bottom: 2px solid #c1c1c1;
+    }
+
+    #page_middle h3 {
+        margin: 0;
+    }
+#text-body {
+    margin: 0 25px;
+}
+    #navitems {
+        margin-left: -5px;
+        font-size: 0.8em;
+    }
+
+#side ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0;
+    margin: 0;
+}
+            #side ul li:first-of-type {
+                list-style: none;
+            }
+
+            #side ul li {
+                list-style-type: "\2B25";
+                list-style-position: inside;
+                background: rgb(255,255,255);
+                background: linear-gradient(to bottom, #eae9ea 0%, #cccccd 100%);
+                height: 30px;
+                padding: 10px 0 0 7px;
+                white-space: nowrap;
+            }
+                #side ul li a {
+                    color: #000;
+                    font-weight: 600;
+                    font-size: 0.8em;
+                }
+#nasa_blurb {
+    margin-top: 10%;
+    padding-top: 1%;
+    border-top: 2px solid #c1c1c1;
+    /*display: flex;*/
+}
+
+    #nasa_blurb p {
+        margin-top: 0;
+        padding-top: 0;
+        color: #949195;
+    }
+    #nasalogo {
+    float: right;
+}
+
+#container {
+    display: flex;
+}
+
+    #middle_ul {
+        list-style: none;
+    }
+
+        #middle_ul li {
+            margin: 5% 0;
+        }
+
+
+figure {
+    height: 20%;
+    width: 500px;
+    margin: 0;
+    padding: 0.75%;
+    border: 2px solid #c1c1c1;
+}
+    figcaption {
+        font-size: 0.8em;
+    }
+
+footer {
+    margin-top: 7%;
+    text-align: center;
+}
+#footernav {
+    margin: 0;
+    
+}
+    #footernav ul {
+        display: flex;
+        justify-content: center;
+       text-align: center;
+       list-style: none;
+       margin: 0;
+
+    }
+        #footernav ul li {
+            padding: 0 10px;
+            border-right: 1px solid #000;
+        }
+
+        #footernav ul li:last-of-type {
+            border-right: none;
+        }
+
+        #footernav ul li a{
+            font-size: 0.7em;
+        }
+
+        footer p {
+            font-size: 0.7em;
+            margin: 2px;
+        }
+
+
